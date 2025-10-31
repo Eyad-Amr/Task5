@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  background-image: url(./image-removebg-preview\(4\).png);
+  background-repeat: no-repeat;
+  background-size: 445px;
+  background-position-x: 60rem;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Top {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Name {
+  width: 40%;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.44px;
+  padding-top: 39px;
+}
+.Icons {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Group\ 26.png);
+  background-repeat: no-repeat;
+  background-position-y: 70px;
+}
+.Greeting {
+  width: 80%;
+  margin: 125px 0 0 0;
+}
+.Greeting h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 106px;
+  line-height: 106px;
+  letter-spacing: -2.5px;
+}
+.Emphasis {
+  text-decoration: underline;
+  text-decoration-color: rgb(13, 175, 137);
+  text-underline-offset: 25px;
+}
+.Objective {
+  margin-top: 40px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.Section1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Portion {
+  width: 80%;
+  display: flex;
+}
+.Portion p {
+  margin-top: 60px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  text-decoration: underline;
+  text-decoration-color: rgb(13, 175, 137);
+  text-underline-offset: 20px;
+}
+.Line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Separate {
+  width: 80%;
+  margin-top: 200px;
+}
+.Section2 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url(./Group\ 26.png);
+  transform: scaleX(-1);
+  background-position-x: -180px;
+  background-position-y: 370px;
+}
+.Languages {
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: scaleX(-1);
+}
+.Exp {
+  width: 30%;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1.5px;
+}
+.Exp p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 25px;
+}
+.Section3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Start {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.Start h1 {
+  width: 40%;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+}
+.Start p {
+  width: 40%;
+  text-align: right;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  text-decoration: underline;
+  text-decoration-color: rgb(13, 175, 137);
+  text-underline-offset: 20px;
+}
+.Section4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.Rest {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Photo1 {
+  width: 40%;
+  align-content: left;
+  margin-bottom: 100px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+.Photo1 p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+}
+.Photo2 {
+  width: 40%;
+  align-content: right;
+  margin-bottom: 100px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+.Photo2 p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  display: flex;
+}
+.Tools {
+  display: flex;
+  gap: 20px;
+}
+footer {
+  width: 100%;
+  background-color: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Group\ 26.png);
+  background-repeat: no-repeat;
+  background-position-x: -60px;
+  background-position-y: 360px;
+}
+.Section5 {
+  width: 80%;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.ContactMessage {
+  width: 40%;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 68px;
+  letter-spacing: -2.5px;
+  display: flex;
+  flex-direction: column;
+}
+.ContactMessage p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  padding-top: 60px;
+}
+.Form {
+  width: 40%;
+  color: white;
+}
+.Form p {
+  padding-left: 20px;
+  padding-bottom: 5px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.22px;
+  opacity: 50%;
+}
+.Sent {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  text-decoration: underline;
+  text-decoration-color: rgb(13, 175, 137);
+  text-underline-offset: 20px;
+  text-align: right;
+}
+.Final {
+  width: 100%;
+  background-color: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Bottom {
+  width: 80%;
+  margin-bottom: 40px;
+}
+.End {
+  width: 100%;
+  background-color: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
